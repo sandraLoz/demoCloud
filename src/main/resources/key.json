@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "opplus-cloud-352011",
+  "private_key_id": "bff876f907a28d664a89c717a329021cfaf6a2e7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHUpueNNIrDhim\nPnKD6Tmio8LrG7gB3fXHv3wy0BZeb6IfIB2tkDFaiDKxMgOm2S3ysd1V+LhdNQu1\noqWk0Pi7JfwKlYD972C3uqVXl3jQRsFlFejewp7/0HSckmLoVKGWYW1dV/+h5Okl\nfi8K0n1AsJ+XTGhKgsFyIyDfNWSdV6QLiZF8bDmQJS2nWE5dhmE1so16WIqqSDYO\nOIVDaE5phr4HUFBedgDBvfrWy/3EdywDENJKtkbSu+1jMv2JfRmFy/yiaBvQS71E\ns2hZbK9BvdFj+T9gRotLwShE0vLvLmsEC9RkNDKrFdcbpMm7NCf7PrwecUMmuch5\nyivK4PDlAgMBAAECggEAAM8wEKaonylSYsGTgC6KKqHBI3EP0kJXdQvb78I818UQ\nxSwmjNUPF2YCQPN7GTy93Bp/qPgCw5Yqv2CB/v87W2gcv99uGXK/o9v2wo+HOr+2\niHA0PeXBngqpbQq5/Vz3uE88Wj2PLownMaQmt9NnUSNMgIwsoxmozkzrlM916wgB\ngPBv54BZYfoOQXhYupBtKDbaew4J7YDwwboZqByppIrF9TZYTmAtvyyFePZj4AfN\nPScDmCN16QjRbZ6YsByQAFCTCmuyRcfcLdWSZQNk6wMPjS/EFSabI1MpMLNK+T+4\neNUMxyLMZMwuk+vA2ghRheSyL5ODzXYihtjRkt7hmQKBgQD/+10CxbNV14nskcdR\nqN8yVFHxODs+gUgT7aHj9bNti767L4Uwz8fI/mhHAiUzJX+kNDUmWri35HoZsMT6\naa2+6239im7csY7XlafgmPbBt90T2iGadCS6NAF7tXYnFFjx/IXrDDw1IimNb76k\nC3s5+Iw0N9ZbXscWlgg4larOOQKBgQDHVjfg0UwooA3OLX3lustbLg0gqCqfTAhi\n0T8rzUuMWRIXpbItrISSl3WuueJn+6MyIAi6yEERHQboJYc8nm7uRNWpZIlVC1D7\nFAZQHO7ClsX+bJiXfylmnBj9JTrk2UCJYY7kMGS+0e/ze2eHRqp+eqzwZz+aWwQl\nRRj3dNg4DQKBgHHZfjipbWWUg4dwHtI25W4hCoDanZ7jKQeT/RjCQpdKO/5M2FQp\nVZYTcJWEYr8owmhpv+nbF6TSPWwHrtQhBGGRnE3TsBL/9aP0r8G4xqbJ+83EioWD\neoJGdxJqVq5y4kxeH8G2o2COXSTGumeDo77YyKLA4tmogauN9wITrvAhAoGALMHM\nHBuCaSC+2MtYGEvfuyJU6j84Crpsq5tl/rTCwMmDCXI31o+E2NFPKCMulcBnfSq6\nKw4ppekJkvhSLCc6qx8jhjw/pau7zBRL8pL8fQ6TeDPz8xgnOJXV+ojwd0/ccLxJ\n9Cx1gm7q3JWZwkL4pxtuVzAnlMXY4XFpUK6YmcUCgYEA97r3wdNkfZkZskw+plFe\nRG+wZn3iYTs/i4HTzzp43Ek8EF0eWBLzAfmAeVQq/J72qb/t32ZjhiN1po6Kuhgp\nDbHjeEL0kRqFlUZU+08MYY+TTHBuXleV1LUW7SDMeGJxN/R/BuYAMRY7fBBKPDcC\nSOvuRCEbJPFfC2zknYSN9Xk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "opplus-user@opplus-cloud-352011.iam.gserviceaccount.com",
+  "client_id": "114305314501125656696",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/opplus-user%40opplus-cloud-352011.iam.gserviceaccount.com"
+}
