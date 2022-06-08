@@ -56,5 +56,5 @@ jobs:
       uses: 'google-github-actions/deploy-cloudrun@v0'
       with:        
         region: europe-southwest1
-        service: 'demo-user'
+        service: 'demo-cloud'
         image: 'europe-southwest1-docker.pkg.dev/opplus-cloud-352011/demo-cloud-rep/demo-cloud:latest'
