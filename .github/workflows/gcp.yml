@@ -6,6 +6,7 @@ on:
       - "master"
 env:
   PROJECT_ID: opplus-cloud-352011 # TODO: update Google Cloud project id
+  IMAGE_NAME: demo-cloud
   GAR_LOCATION: europe-southwest1 # TODO: update Artifact Registry location
   SERVICE: srv-demo-cloud	 # TODO: update Cloud Run service name
   REGION: europe-southwest1 # TODO: update Cloud Run service region
