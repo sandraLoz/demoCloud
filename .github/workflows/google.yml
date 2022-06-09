@@ -53,9 +53,8 @@ jobs:
         docker push europe-southwest1-docker.pkg.dev/$PROJECT_ID/demo-cloud/$IMAGE_NAME:$GIT_TAG
    
     - name: Deploy Docker image      
-      run: |
-        gcloud run deploy --image=europe-southwest1-docker.pkg.dev/opplus-cloud-352011/demo-cloud/demo-cloud:latest --add-cloudsql-instances=opplus-cloud-352011:europe-southwest1:opplus-pg-db
-
+      run: |        
+        gcloud run deploy srv-demo-cloud --image europe-southwest1-docker.pkg.dev/opplus-cloud-352011/demo-cloud/demo-cloud:latest --quiet --platform managed --region europe-southwest1 --project opplus-cloud-352011 --add-cloudsql-instances=opplus-cloud-352011:europe-southwest1:opplus-pg-db --format json
       #   gcloud run deploy ${{ secrets.GCP_APPLICATION }} --image gcr.io/${{ secrets.GCP_PROJECT }}/${{ secrets.GCP_APPLICATION }} \
       #   --platform managed \
       #   --allow-unauthenticated \
