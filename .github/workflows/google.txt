@@ -52,7 +52,12 @@ jobs:
         docker push europe-southwest1-docker.pkg.dev/$PROJECT_ID/demo-cloud/$IMAGE_NAME:latest
         docker push europe-southwest1-docker.pkg.dev/$PROJECT_ID/demo-cloud/$IMAGE_NAME:$GIT_TAG
    
-    - name: 'Deploy to Cloud Run'
+    - name: Deploy Docker image      
+      # run: |
+      #   gcloud run deploy ${{ secrets.GCP_APPLICATION }} --image gcr.io/${{ secrets.GCP_PROJECT }}/${{ secrets.GCP_APPLICATION }} \
+      #   --platform managed \
+      #   --allow-unauthenticated \
+      #   --memory 512M
       uses: 'google-github-actions/deploy-cloudrun@v0'
       with:        
         region: europe-southwest1
