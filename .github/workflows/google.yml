@@ -53,13 +53,15 @@ jobs:
         docker push europe-southwest1-docker.pkg.dev/$PROJECT_ID/demo-cloud/$IMAGE_NAME:$GIT_TAG
    
     - name: Deploy Docker image      
-      # run: |
+      run: |
+        gcloud run deploy --image=europe-southwest1-docker.pkg.dev/opplus-cloud-352011/demo-cloud/demo-cloud:latest --add-cloudsql-instances=opplus-cloud-352011:europe-southwest1:opplus-pg-db
+
       #   gcloud run deploy ${{ secrets.GCP_APPLICATION }} --image gcr.io/${{ secrets.GCP_PROJECT }}/${{ secrets.GCP_APPLICATION }} \
       #   --platform managed \
       #   --allow-unauthenticated \
       #   --memory 512M
-      uses: 'google-github-actions/deploy-cloudrun@v0'
-      with:        
-        region: europe-southwest1
-        service: 'demo-cloud'
-        image: 'europe-southwest1-docker.pkg.dev/opplus-cloud-352011/demo-cloud/demo-cloud:latest'
+      #uses: 'google-github-actions/deploy-cloudrun@v0'
+      #with:        
+      #  region: europe-southwest1
+      #  service: 'srv-demo-cloud'
+      #  image: 'europe-southwest1-docker.pkg.dev/opplus-cloud-352011/demo-cloud/demo-cloud:latest'
